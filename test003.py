@@ -1,3 +1,4 @@
+#! usr/bin/env  python
 #计算0-100累计求和结果。
 #0、定义最终结果的变量
 result = 0

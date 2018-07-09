@@ -1,3 +1,4 @@
+#! usr/bin/env  python
 # 1.定义重复次数计算器
 i = 1
 

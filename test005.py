@@ -1,3 +1,4 @@
+#! usr/bin/env  python
 #1、请输入用户年龄
 age = int(input("你今年年龄多大了？"))
 
