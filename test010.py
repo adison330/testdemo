@@ -1,4 +1,4 @@
-#! usr/bin/env python
+#! /usr/bin/env python
 name = '小明'
 
 #解释器知道这里定义了一个函数
