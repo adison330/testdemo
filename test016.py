@@ -1,4 +1,4 @@
-#! usr/bin/env  python
+#! /usr/bin/env python
 def demo1():
 
     num = 10

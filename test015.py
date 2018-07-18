@@ -1,4 +1,4 @@
-#! usr/bin/env  python
+#! /usr/bin/env python
 a = 1
 a = "hello"
 a = [1,2,3]

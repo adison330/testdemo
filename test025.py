@@ -1,4 +1,4 @@
-#! usr/bin/env python
+#! /usr/bin/env python
 
 #修改为什么提交不上去呢？
 

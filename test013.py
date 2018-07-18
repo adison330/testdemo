@@ -1,4 +1,4 @@
-#! usr/bin/env python
+#! /usr/bin/env python
 num_str = "1234567890"
 
 print(num_str[2:6])

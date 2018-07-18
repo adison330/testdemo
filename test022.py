@@ -1,4 +1,4 @@
-#! usr/bin/env  python
+#! /usr/bin/env python
 
 def print_info (name,title="",gender=True):
 

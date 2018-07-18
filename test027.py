@@ -1,4 +1,4 @@
-#! usr/bin/env python
+#! /usr/bin/env python
 
 class Car():
     def _init_(self, make, model, year):

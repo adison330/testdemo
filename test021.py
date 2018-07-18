@@ -1,4 +1,4 @@
-#! usr/bin/env  python
+#! /usr/bin/env python
 num = 101
 def demo (num, num_list):
 

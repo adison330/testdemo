@@ -1,4 +1,4 @@
-#! usr/bin/env  python
+#! /usr/bin/env python
 def measure():
     """返回当前的温度"""
 

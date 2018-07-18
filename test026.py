@@ -1,4 +1,4 @@
-#! usr/bin/env python
+#! /usr/bin/env python
 
 while True:
     # TODO 显示系统主菜单

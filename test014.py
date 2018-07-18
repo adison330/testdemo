@@ -1,4 +1,4 @@
-#! usr/bin/env python
+#! /usr/bin/env python
 def test(num):
 
     print("-" * 50)

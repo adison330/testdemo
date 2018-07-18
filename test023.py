@@ -1,4 +1,5 @@
-#! usr/bin/env  python
+#! /usr/bin/env python
+
 def demo(num,*args,**kwargs):
 
     print(num)
