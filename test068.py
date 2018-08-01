@@ -12,3 +12,4 @@ print("电话号码 ： ", num)
 #移除非数字的内容
 num = re.sub(r"\D", "", phone)
 print ("电话号码 ： ", num)
+
