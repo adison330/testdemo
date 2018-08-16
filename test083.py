@@ -21,3 +21,24 @@ if settings.DaraRedis.get(rediskeys.user_battle_list(openid))
     return True
 # 在提取battle list之后，需要自redis中记录用户信息
 settings.DataRedis.set(rediskeys.user_battle_list(openid))
+
+task_queues= (
+    Queue('queue_get_battle_info',exchange=Exchange('priority',type = 'direct'),routing_key = 'gbi'),
+    Queue('queue_get_battle_list',exchange=Exchange('priority',type = 'direct'),routing_key = 'gbl'),
+    Queue('queue_get_battle_list',exchange=Exchange('priority',type = 'direct'),routing_key = 'gbl'),
+)
+
+task_routes = ([
+    ('get_battle_info',{'queue':'queue_get_battle_info'}),
+    ('get_battle_list',{'queue':'queue_get_battle_list'}),
+    ('get_user_info',{'queue':'queue_get_user_info'})
+])
+
+from tasks.all import get_battle_list
+
+my_openid = 'oODfo0oIErZI2xxx9xPlVyQbRPgY'
+my_platid = '0'
+
+get_battle_list.delay(my_openid,my_platid,after_time=0,update_time = None)
+
+
